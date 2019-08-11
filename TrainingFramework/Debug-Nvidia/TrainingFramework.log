@@ -1,34 +1,10 @@
 ﻿  cl : Command line warning D9035 : option 'Gm' has been deprecated and will be removed in a future release
-  GSPlay.cpp
+  TrainingFramework.cpp
+  GSIntro.cpp
 F:\game download\Programming\TrainingFramework\src\Helper\ThreadPool.h(37,13): warning C4477:  'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::thread::id'
 F:\game download\Programming\Soloud\include\soloud.h(37,1): warning C4005:  'WIN32_LEAN_AND_MEAN': macro redefinition
 F:\game download\Programming\Include\AMD\EGL\eglplatform.h(67): message :  see previous definition of 'WIN32_LEAN_AND_MEAN'
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(39,86): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(39,55): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(45,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(56,82): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(56,51): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(57,92): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(57,61): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(110,39): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(110,36): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(215,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(239,21): warning C4244:  'argument': conversion from 'double' to 'GLint', possible loss of data
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(250,10): warning C4244:  '=': conversion from 'int' to 'GLfloat', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:  'argument': conversion from '_Ty' to 'float', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:             _Ty=double
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1527,71): warning C4244:         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :  see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[3],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[3],TEXT_COLOR &&,double &&)' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :  see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[3],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[3],TEXT_COLOR &&,double &&)' being compiled
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         with
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         [
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :             _Ty=Text
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.21.27702\include\memory(1582): message :         ]
-F:\game download\Programming\TrainingFramework\src\GameStates\GSPlay.cpp(66): message :  see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shaders>&,std::shared_ptr<Font>&,const char(&)[3],TEXT_COLOR,double>(std::shared_ptr<Shaders> &,std::shared_ptr<Font> &,const char (&)[3],TEXT_COLOR &&,double &&)' being compiled
+F:\game download\Programming\TrainingFramework\src\GameStates\GSIntro.cpp(22,80): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
+  Generating Code...
+F:\game download\Programming\TrainingFramework\src\GameStates\GSIntro.cpp(22,49): warning C4244:  'argument': conversion from 'int' to 'GLfloat', possible loss of data
   TrainingFramework.vcxproj -> F:\game download\Programming\\BIN-Nvidia\TrainingFramework.exe
