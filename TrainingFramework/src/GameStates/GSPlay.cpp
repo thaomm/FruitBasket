@@ -12,7 +12,7 @@
 #include "Player.h"
 #include "Fruit.h"
 #include "Bomb.h"
-#include "ExplosiveEffect.h"
+
 
 int GSPlay::m_score = 0;
 GSPlay::GSPlay()

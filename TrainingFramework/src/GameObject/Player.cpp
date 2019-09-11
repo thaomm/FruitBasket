@@ -46,20 +46,14 @@ void Player::Update(GLfloat deltatime)
 
 	Vector2 pos = Get2DPosition();
 
-	if (pos.x < m_TargetPosition.x)
-	{
+	if (pos.x < m_TargetPosition.x){
 		pos.x += m_speed * deltatime;
-		if (pos.x > m_TargetPosition.x)
-			pos.x = m_TargetPosition.x;
+		if (pos.x > m_TargetPosition.x)	pos.x = m_TargetPosition.x;
 	}
-
-	if (pos.x > m_TargetPosition.x)
-	{
+	if (pos.x > m_TargetPosition.x){
 		pos.x -= m_speed * deltatime;
-		if (pos.x < m_TargetPosition.x)
-			pos.x = m_TargetPosition.x;
+		if (pos.x < m_TargetPosition.x)	pos.x = m_TargetPosition.x;
 	}
-
 	Set2DPosition(pos);
 }
 

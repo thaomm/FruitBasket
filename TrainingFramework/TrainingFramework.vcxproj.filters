@@ -48,9 +48,6 @@
     <ClCompile Include="src\GameObject\Shaders.cpp">
       <Filter>src\GameObject</Filter>
     </ClCompile>
-    <ClCompile Include="src\GameObject\SpriteSheet.cpp">
-      <Filter>src\GameObject</Filter>
-    </ClCompile>
     <ClCompile Include="src\GameObject\Text.cpp">
       <Filter>src\GameObject</Filter>
     </ClCompile>
@@ -77,9 +74,6 @@
     </ClCompile>
     <ClCompile Include="src\GameStates\GSPlay.cpp">
       <Filter>src\GameStates</Filter>
-    </ClCompile>
-    <ClCompile Include="src\GameObject\ExplosiveEffect.cpp">
-      <Filter>src\GameObject</Filter>
     </ClCompile>
     <ClCompile Include="src\GameObject\Fruit.cpp">
       <Filter>src\GameObject</Filter>
@@ -128,9 +122,6 @@
     <ClInclude Include="src\GameObject\Shaders.h">
       <Filter>src\GameObject</Filter>
     </ClInclude>
-    <ClInclude Include="src\GameObject\SpriteSheet.h">
-      <Filter>src\GameObject</Filter>
-    </ClInclude>
     <ClInclude Include="src\GameObject\Text.h">
       <Filter>src\GameObject</Filter>
     </ClInclude>
@@ -166,9 +157,6 @@
     </ClInclude>
     <ClInclude Include="src\Helper\ThreadPool.h">
       <Filter>src\Helper</Filter>
-    </ClInclude>
-    <ClInclude Include="src\GameObject\ExplosiveEffect.h">
-      <Filter>src\GameObject</Filter>
     </ClInclude>
     <ClInclude Include="src\GameObject\Fruit.h">
       <Filter>src\GameObject</Filter>
